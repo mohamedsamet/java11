@@ -13,6 +13,13 @@ public class MyClass {
 		cube.setB(99);
 		System.out.println(cube.getVolume());
 		System.out.println(Add("1.3", "a55"));
+		
+		Rectangle rec = new Rectangle();
+		Triangle tri = new Triangle();
+		tri.setValues(15, 15);
+		rec.setValues(15, 15);
+		System.out.println(rec.getArea());
+		System.out.println(tri.getArea());
 	}
 	
 	public static int Add (int a, int b) {

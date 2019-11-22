@@ -1,10 +1,10 @@
 package defaulr1;
 
-public class Cube {
+public final class Cube {
 	int a;
 	int b;
 	int c;
-	
+	public final int number; 
 	public int getA() {
 		return a;
 	}
@@ -37,9 +37,11 @@ public class Cube {
 		this.a = 1;
 		this.b = 1;
 		this.c = 1;
+		this.number = 8;
 	}
 	
 	Cube(int a, int b, int c) {
+		this.number = 8;
 		this.a = a;
 		this.b = b;
 		this.c = c;
